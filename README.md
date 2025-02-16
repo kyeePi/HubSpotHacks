@@ -8,7 +8,7 @@ Within this repo, you will find directories containing code snippets and step-by
 
 Within each guide, you will find hashtags that easily identify what licences and tiers are required to utilise this solution.
 
-#Marketing_Hub_Pro
+#MarketingHubPro
 
 ### Disclaimer
 
