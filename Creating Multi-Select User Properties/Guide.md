@@ -36,19 +36,17 @@ If you prefer to do things within your code editor, I've provided an [example No
 
 ![step-1](Screenshots/step-1.png)
 
-2. Setup your Request Parameters as shown below:
-
-	Method: `POST`
-	URL: `https://api.hubapi.com/crm/v3/properties/:object`
-	Path Variables: `{Object Name}` (eg. `contact)
+1. Setup your Request Parameters as shown below:
+	1. Method: `POST`
+	2. URL: `https://api.hubapi.com/crm/v3/properties/:object`
+	3. Path Variables: `{Object Name}` (eg. `contact)
 
 ![step-2](Screenshots/step-2.png)
 
-3. Setup your Request Body as shown below:
-
-	Type: `raw`
-	Format: `JSON`
-	Body:
+1. Setup your Request Body as shown below:
+	1. Type: `raw`
+	2. Format: `JSON`
+	3. Body:
 
 ```
 {
@@ -81,13 +79,13 @@ If you prefer to do things within your code editor, I've provided an [example No
 
 ![step-3](Screenshots/step-3.png)
 
-4. Ensure to setup your Authorization
+2. Ensure to setup your Authorization
 
 	*I recommend setting up an Environment to store your Private Tokens - then setting up Authorization within a Collection so all Requests within can Inherit auth from parent like shown below:*
 
 ![step-4](Screenshots/step-4.png)
 
-5. Verify your setup and click Send
+3. Verify your setup and click Send
 
 	After sending the API request, you should receive a response from the HubSpot API like shown below:
 
