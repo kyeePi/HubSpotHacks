@@ -28,7 +28,7 @@ With just a single API call, you can have your very own Multiple Checkbox HubSpo
 - HubSpot Private App with the scope of `crm.schemas.{object}.write`
 
 ##### Create Request in Postman
-1. Open Postman, select your Environment and Collection, click "New" and click "HTTP".
+1. Open Postman, select your Environment and Collection, click "New" and click "HTTP"!
 
 ![[step-1.png]]
 
