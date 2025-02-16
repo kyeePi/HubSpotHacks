@@ -93,7 +93,7 @@ In HubSpot, you should now see your Custom Property within the Property Settings
 
 ![results-1](Screenshots/results-1.png)
 
-![results-2](Screenshots/results-2.png)
+![results-2](Screenshots/results-2-1.png)
 ##### Using Node.JS
 
 If you prefer to do things within your code editor, I've provided an [example Node.JS script](script.js) using Axios.
