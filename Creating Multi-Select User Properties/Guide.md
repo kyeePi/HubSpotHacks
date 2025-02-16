@@ -1,12 +1,12 @@
 # Guide
 
-#AnyStarter #HubSpotAPI
+#### #FreeCRM #HubSpotAPI
 
-### Summary
+## Summary
 
 Create a HubSpot User property with a specified Field Type of Checkbox, to allow your users to set multiple HubSpot Users within a single property.
 
-### Background
+## Background
 
 Ever come across a use-case where you may need multiple owners of a record, only to find that HubSpot User properties are restricted to a single select dropdown? 
 
@@ -21,13 +21,17 @@ As you can imagine, this can get quite overwhelming as an admin, but even worse 
 Well here's a #HubSpotHack - you **can** create a Multi-Select HubSpot User property, using the HubSpot API!
 
 With just a single API call, you can have your very own Multiple Checkbox HubSpot User property, allowing you to do all the things you'd expect - Send internal notifications, build Lists, Views and Reports, etc.
-### Instructions
+## Instructions
 
-##### Prerequisites 
-- API Client of your choosing (eg. [Postman](https://www.postman.com/) - *which I'll be using in this guide*)
+### Prerequisites 
 - HubSpot Private App with the scope of `crm.schemas.{object}.write`
 
-##### Create Request in Postman
+### Using Node.JS
+
+If you prefer to do things within your code editor, I've provided an [example Node.JS script](script.js) using Axios.
+
+### Using API Client (Postman)
+
 1. Open Postman, select your Environment and Collection, click "New" and click "HTTP".
 
 ![step-1](Screenshots/step-1.png)
@@ -94,6 +98,3 @@ In HubSpot, you should now see your Custom Property within the Property Settings
 ![results-1](Screenshots/results-1.png)
 
 ![results-2](Screenshots/results-2-1.png)
-##### Using Node.JS
-
-If you prefer to do things within your code editor, I've provided an [example Node.JS script](script.js) using Axios.
