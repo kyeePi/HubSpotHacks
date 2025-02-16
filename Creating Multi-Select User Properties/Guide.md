@@ -30,7 +30,7 @@ With just a single API call, you can have your very own Multiple Checkbox HubSpo
 ##### Create Request in Postman
 1. Open Postman, select your Environment and Collection, click "New" and click "HTTP".
 
-[step-1](Screenshots/step-1.png)
+![step-1](Screenshots/step-1.png)
 
 2. Setup your Request Parameters as shown below:
 
@@ -38,7 +38,7 @@ With just a single API call, you can have your very own Multiple Checkbox HubSpo
 	URL: `https://api.hubapi.com/crm/v3/properties/:object`
 	Path Variables: `{Object Name}` (eg. `contact)
 
-[step-2](Screenshots/step-2.png)
+![step-2](Screenshots/step-2.png)
 
 3. Setup your Request Body as shown below:
 
@@ -75,25 +75,25 @@ With just a single API call, you can have your very own Multiple Checkbox HubSpo
 
 **See example below:**
 
-[step-3](Screenshots/step-3.png)
+![step-3](Screenshots/step-3.png)
 
 4. Ensure to setup your Authorization
 
 	*I recommend setting up an Environment to store your Private Tokens - then setting up Authorization within a Collection so all Requests within can Inherit auth from parent like shown below:*
 
-[step-4](Screenshots/step-4.png)
+![step-4](Screenshots/step-4.png)
 
 5. Verify your setup and click Send
 
 	After sending the API request, you should receive a response from the HubSpot API like shown below:
 
-[step-5](Screenshots/step-5.png)
+![step-5](Screenshots/step-5.png)
 
 In HubSpot, you should now see your Custom Property within the Property Settings, ready to be used on your records!
 
-[results-1](Screenshots/results-1.png)
+![results-1](Screenshots/results-1.png)
 
-[results-2](Screenshots/results-2.png)
+![results-2](Screenshots/results-2.png)
 
 ##### Using Node.JS
 
