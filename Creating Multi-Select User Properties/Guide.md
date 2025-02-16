@@ -39,7 +39,7 @@ If you prefer to do things within your code editor, I've provided an [example No
 1. Setup your Request Parameters as shown below:
 	1. Method: `POST`
 	2. URL: `https://api.hubapi.com/crm/v3/properties/:object`
-	3. Path Variables: `{Object Name}` (eg. `contact)
+	3. Path Variables: `{Object Name}` (eg. `contact`)
 
 ![step-2](Screenshots/step-2.png)
 
