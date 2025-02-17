@@ -8,7 +8,7 @@ Dynamically populate dropdown field options using records within a given object,
 
 ## Background
 
-During the [last tutorial](../Creating Multi-Select User Properties/Guide.md) where we created Multi-Select User Properties, you may have noticed a particularly special property within the request `body`:
+During the [last tutorial](https://github.com/kyeePi/HubSpotHacks/blob/main/Creating%20Multi-Select%20User%20Properties/Guide.md) where we created Multi-Select User Properties, you may have noticed a particularly special property within the request `body`:
 
 	"referencedObjectType": "OWNER"
 
