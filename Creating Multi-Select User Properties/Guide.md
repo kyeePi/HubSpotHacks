@@ -85,7 +85,7 @@ If you prefer to do things within your code editor, I've provided an [example No
 
 ![step-4](Screenshots/step-4.png)
 
-1. **Verify your setup and click Send**
+5. **Verify your setup and click Send**
 
 	After sending the API request, you should receive a response from the HubSpot API like shown below:
 
